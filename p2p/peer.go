@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/cc14514/go-ethereum/common/mclock"
+	"github.com/cc14514/go-ethereum/event"
+	"github.com/cc14514/go-ethereum/log"
+	"github.com/cc14514/go-ethereum/p2p/enode"
+	"github.com/cc14514/go-ethereum/p2p/enr"
+	"github.com/cc14514/go-ethereum/rlp"
 )
 
 var (

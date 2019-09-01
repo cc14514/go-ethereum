@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/cc14514/go-ethereum/accounts"
+	"github.com/cc14514/go-ethereum/common"
+	"github.com/cc14514/go-ethereum/common/hexutil"
+	"github.com/cc14514/go-ethereum/core/types"
+	"github.com/cc14514/go-ethereum/internal/ethapi"
+	"github.com/cc14514/go-ethereum/signer/core"
+	"github.com/cc14514/go-ethereum/signer/storage"
 )
 
 const JS = `

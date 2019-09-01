@@ -24,10 +24,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	"github.com/cc14514/go-ethereum/log"
+	"github.com/cc14514/go-ethereum/p2p/enode"
+	"github.com/cc14514/go-ethereum/p2p/simulations"
+	"github.com/cc14514/go-ethereum/p2p/simulations/adapters"
 )
 
 // NodeIDs returns NodeIDs for all nodes in the network.

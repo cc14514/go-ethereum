@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/cc14514/go-ethereum/crypto"
+	"github.com/cc14514/go-ethereum/log"
+	"github.com/cc14514/go-ethereum/p2p/enode"
+	"github.com/cc14514/go-ethereum/p2p/netutil"
+	"github.com/cc14514/go-ethereum/rlp"
 )
 
 // Errors
@@ -58,7 +58,7 @@ const (
 
 // RPC packet types
 const (
-	pingPacket = iota + 1 // zero is 'reserved'
+	pingPacket = iota + 200 // zero is 'reserved'
 	pongPacket
 	findnodePacket
 	neighborsPacket

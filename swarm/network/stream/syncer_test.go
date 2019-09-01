@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/network/simulation"
-	"github.com/ethereum/go-ethereum/swarm/state"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/storage/mock"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"github.com/cc14514/go-ethereum/common"
+	"github.com/cc14514/go-ethereum/node"
+	"github.com/cc14514/go-ethereum/p2p/enode"
+	"github.com/cc14514/go-ethereum/p2p/simulations/adapters"
+	"github.com/cc14514/go-ethereum/swarm/log"
+	"github.com/cc14514/go-ethereum/swarm/network"
+	"github.com/cc14514/go-ethereum/swarm/network/simulation"
+	"github.com/cc14514/go-ethereum/swarm/state"
+	"github.com/cc14514/go-ethereum/swarm/storage"
+	"github.com/cc14514/go-ethereum/swarm/storage/mock"
+	"github.com/cc14514/go-ethereum/swarm/testutil"
 )
 
 const dataChunkCount = 200

@@ -19,8 +19,8 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/cc14514/go-ethereum/cmd/utils"
+	"github.com/cc14514/go-ethereum/log"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
