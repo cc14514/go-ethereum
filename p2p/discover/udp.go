@@ -363,7 +363,14 @@ func (t *udp) findnode(toid enode.ID, toaddr *net.UDPAddr, target encPubkey) ([]
 		Target:     target,
 		Expiration: uint64(time.Now().Add(expiration).Unix()),
 	})
-	return nodes, <-errc
+	// 先看看有没有找到
+	err := <-errc
+	for _, n := range nodes {
+		if n.ID() == toid {
+			fmt.Println("HELLO-FINDPEER-SUCCESS ::>", toid)
+		}
+	}
+	return nodes, err
 }
 
 // pending adds a reply matcher to the pending reply queue.
